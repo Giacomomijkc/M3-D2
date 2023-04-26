@@ -1,0 +1,165 @@
+#navbar-container{
+    display: flex;
+    justify-content: center;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    list-style-type: none;
+    background-color: bisque;
+    border-radius: 50px;
+    padding: 20px 15px;
+    width: 600px;
+
+}
+
+.navbar-item{
+    flex-grow: 1;
+    background-color: rgba(243, 208, 80, 0.83);
+    border-radius: 40px;
+    padding: 5px 10px 10px;
+    font-size: 10pt;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+}
+
+#logo{
+    width: 50px;
+    padding-top: 10px;
+    position: absolute;
+    left: 630px;
+}
+
+#navbar-shop-item {
+    width: 80px;
+    height: 60px;
+    font-size: 15pt;
+    flex-grow: 2;
+}
+
+#span{
+    font-size: 15pt;
+    position: absolute;
+    padding-top: 20px;
+    right: 650px;
+    font-weight: bold;
+}
+
+
+#card-prodotto{
+    width: 200px;
+    height: 300px;
+}
+
+#card-image{
+    object-fit: cover;
+    border-radius: 60px 60px 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+#image-container{
+    height: 200px;
+}
+
+#info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 30px;
+    background-color: bisque;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 0;
+}
+
+#bottom-container{
+    background-color: bisque;
+    border-radius: 0 0 50px 50px;
+    height: 75px;
+    margin-top: 0;
+}
+
+#product-card-span{
+    font-size: 9pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#product-card-paragrafo{
+    font-size: 7pt;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#product-card-price{
+    font-size: 8pt;
+    text-align: center;
+}
+
+#button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#add-to-cart{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 6pt;
+    padding: 5px 0;
+    background-color: rgba(243, 208, 80, 0.83);
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-articolo{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    width: 800px;
+    height: 275px;
+}
+
+#image-articolo{
+    width: 50%;
+}
+
+#testo-articolo{
+    width: 50%;
+}
+
+#cover-articolo{
+    width: 380px;
+    height: 255px;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#testo-articolo{
+    width: 380px;
+    height: 255px;
+    color: rgba(169, 12, 67, 0.888);
+    font-size: 8pt;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#title-articolo{
+    color: rgba(169, 12, 67, 0.888);
+    font-size: 12pt;
+}
+
+
